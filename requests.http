@@ -1,0 +1,12 @@
+
+###
+GET https://api.thedogapi.com/v1/breeds
+x-api-key: Rails.application.credentials.dog-api-key
+
+###
+GET http://localhost:3000/breeds
+x-api-key: Rails.application.credentials.dog-api-key
+
+###
+GET http://localhost:3000/breeds/Golden+Retriever
+x-api-key: Rails.application.credentials.dog-api-key
